@@ -30,6 +30,7 @@ function Nav() {
                 Portfolio
               </a>
             </li>
+
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#technologies">
                 Technical Skills
