@@ -20,19 +20,23 @@ return (
           </div>
           <img className="img-fluid img" src={demo} alt="" />
         </div>
-        <div className="portfolio-caption d-flex flex-column justify-content-center">
+      </Link>
+      <div className="portfolio-caption d-flex flex-column justify-content-center">
+        <Link key={id} to={routeId}>
           <p className="portfolio-caption-heading">
             <span>&#123;</span>
             {title}
             <span>&#125;</span>
           </p>
-          <div className=" portfolio-caption-subheading text-muted tags">
-            {tags.map((tag, index) => (
-              <span key={index}>{tag} / </span>
-            ))}
-          </div>
+        </Link>
+        <div className=" portfolio-caption-subheading text-muted tags">
+          {tags.map((tag, index) => (
+            <span className="btn" key={index}>
+              {tag} /{" "}
+            </span>
+          ))}
         </div>
-      </Link>
+      </div>
     </li>
   </React.Fragment>
 );

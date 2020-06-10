@@ -17,24 +17,35 @@ function AboutMe() {
               <h4>Marina de la Fuente</h4>
               <p className="text-muted">Web Developer</p>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark btn-social mx-2"
                 href="https://twitter.com/marinadlaf"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark btn-social mx-2"
                 href="https://github.com/marinadelafuente"
               >
                 <i className="fab fa-github" aria-hidden="true"></i>
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark btn-social mx-2"
                 href="https://www.linkedin.com/in/marinadelafuentegomeztavira/"
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a className="btn btn-dark btn-social mx-2" href="mailto:mdelafuente18@gmail.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-dark btn-social mx-2"
+                href="mailto:mdelafuente18@gmail.com"
+              >
                 <i className="fa fa-envelope" aria-hidden="true"></i>
               </a>
             </div>

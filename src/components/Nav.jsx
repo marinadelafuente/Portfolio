@@ -2,28 +2,36 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-0 py-lg-1" id="mainNav">
       <div className="container">
-        <div className="col-lg-4 my-3 my-lg-0">
+        <div className="nav-icons my-3 my-lg-0 text-left px-0">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-nav btn-social mx-2"
             href="https://twitter.com/marinadlaf"
           >
             <i className="fab fa-twitter"></i>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-nav btn-social mx-2"
             href="https://github.com/marinadelafuente"
           >
             <i className="fab fa-github" aria-hidden="true"></i>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-nav btn-social mx-2"
             href="https://www.linkedin.com/in/marinadelafuentegomeztavira/"
           >
             <i className="fab fa-linkedin-in"></i>
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-nav btn-social mx-2"
             href="mailto:mdelafuente18@gmail.com"
           >
