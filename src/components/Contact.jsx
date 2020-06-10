@@ -10,7 +10,9 @@ function Contact () {
           <form
             id="contactForm"
             name="sentMessage"
-            action="mdelafuente18@gmail.com"
+            // action="mdelafuente18@gmail.com"
+            action="https://formspree.io/moqapyry"
+            method="POST"
           >
             <div className="row align-items-stretch mb-5">
               <div className="col-md-6">

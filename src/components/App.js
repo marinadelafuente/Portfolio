@@ -31,20 +31,15 @@ class App extends React.Component {
     return (
       <div className="App">
         <Switch>
-          <Route exact path="/">
+          <Route path="/project/:id" render={this.renderProjectDetail} />
+          <Route path="/">
             <Nav />
-            {/* <Route exact path="/Header" component={Header} /> */}
             <Header />
-            {/* <Route exact path="/AboutMe" component={AboutMe} /> */}
             <AboutMe />
-            {/* <Route exact path="/ProjectList" component={ProjectList} /> */}
             <ProjectList projects={projects} />
-            {/* <Route exact path="/Technologies" component={Technologies} /> */}
             <Technologies />
-            {/* <Route exact path="/Contact" component={Contact} /> */}
             <Contact />
           </Route>
-          <Route exact path="/project/:id" render={this.renderProjectDetail} />
         </Switch>
         <Footer />
       </div>

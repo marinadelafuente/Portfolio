@@ -2895,16 +2895,20 @@ fieldset:disabled a.btn {
 .show > .btn-light.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
+.btn-nav {
+  color: rgb(161, 156, 156);
+}
+.btn-nav:hover {
+  color: #fec503;
+  font-size: larger;
+}
 
 .btn-dark {
   color: #fff;
-  /* background-color: #1da1f2; */
   background-color: #343a40;
-  /* border-color: #343a40; */
 }
 .btn-dark:hover {
   color: #fff;
-  /* background-color: #23272b; */
   background-color: #fec503;
 }
 .btn-dark:focus,
@@ -3228,6 +3232,10 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
+}
+
+.pattern {
+  width: 40%;
 }
 
 .fade {
@@ -10499,7 +10507,6 @@ img::-moz-selection {
     left: 100%;
     transform: translate(-50%,-50%);
     padding-top: 6rem;
-    /* padding-bottom: 1rem; */
 
 }
 .arrow span{

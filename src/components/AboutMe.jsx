@@ -13,10 +13,7 @@ function AboutMe() {
         <div className="row">
           <div className="col-lg-4 mx-auto">
             <div className="avatar">
-              {/* <div></div> */}
-              <div className="avatar-container">
-                {/* <img className="mx-auto rounded-circle" src={avatar} alt="" /> */}
-              </div>
+              <div className="avatar-container"></div>
               <h4>Marina de la Fuente</h4>
               <p className="text-muted">Web Developer</p>
               <a
@@ -36,6 +33,9 @@ function AboutMe() {
                 href="https://www.linkedin.com/in/marinadelafuentegomeztavira/"
               >
                 <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a className="btn btn-dark btn-social mx-2" href="mailto:mdelafuente18@gmail.com">
+                <i className="fa fa-envelope" aria-hidden="true"></i>
               </a>
             </div>
           </div>
