@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from '../assets/img/avatar.png'
 
 function AboutMe() {
   return (
@@ -13,9 +12,11 @@ function AboutMe() {
         </div>
         <div className="row">
           <div className="col-lg-4 mx-auto">
-            <div className="team-member">
-              <div></div>
-              <img className="mx-auto rounded-circle" src={avatar} alt="" />
+            <div className="avatar">
+              {/* <div></div> */}
+              <div className="avatar-container">
+                {/* <img className="mx-auto rounded-circle" src={avatar} alt="" /> */}
+              </div>
               <h4>Marina de la Fuente</h4>
               <p className="text-muted">Web Developer</p>
               <a

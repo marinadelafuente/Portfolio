@@ -18,9 +18,13 @@ function Header() {
             <p className="masthead-subheading"> Front-End Developer.</p>
           </div>
         </Typing>
-
       </div>
-      <i className="fas fa-angle-double-down"></i>
+      {/* <i className="fas fa-angle-double-down"></i> */}
+      <div className="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </header>
   );
 }

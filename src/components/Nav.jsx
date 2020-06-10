@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 function Nav() {
   return (
@@ -21,25 +22,25 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">
+              <Link to={"/AboutMe"} className="nav-link js-scroll-trigger">
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">
+              {/* <Link to={"/ProjectList"} className="nav-link js-scroll-trigger">
                 Portfolio
-              </a>
+              </Link> */}
+              {/* <a href={`#${child.get("contact")}`}>{child.get("contact")}</a> */}
             </li>
-
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#technologies">
+              <Link to={"/"} className="nav-link js-scroll-trigger">
                 Technical Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">
+              <Link to={"/#Contact"} className="nav-link js-scroll-trigger">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
