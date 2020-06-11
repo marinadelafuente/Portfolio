@@ -54,13 +54,13 @@ function AboutMe() {
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
             <p className="large text-muted">
-              Front-end developer junior new to the industry, with 5+ years
-              international experience in marketing and tourism in Australia,
-              New Zealand, Canada and Spain. Hard working, proactive,
-              detail-oriented professional with strong interpersonal &
-              problem-solving skills and a can-do attitude, ready to show of
-              what I am capable of, and keep learning in this exciting industry.
-              I love traveling, cooking experimenting and photographing things.
+              Former marketing and avertising professional, now web developer
+              junior with a new-found passion for front-end developing and the
+              ability of getting my ideas come into life through a screen.
+              Having lived and work in different countries such as Spain,
+              Canada, New Zealand and now Australia has taught me that
+              everything is possible with a proactive, can-do attitude and hard
+              work. Outside the coding world, I spend my time travelling, photographing sceneries and trying my best at healthy cooking.
             </p>
           </div>
         </div>

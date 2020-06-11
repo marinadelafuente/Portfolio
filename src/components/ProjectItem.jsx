@@ -6,11 +6,7 @@ function ProjectItem (props) {
     const routeId = `./project/${id}`;
 return (
   <React.Fragment>
-    <li
-      className="li col-lg-4 col-sm-6 mb-4 portfolio-item"
-      key={id}
-      // id={`card_${id}`}
-    >
+    <li className="li col-lg-4 col-sm-6 mb-4 portfolio-item" key={id}>
       <Link key={id} to={routeId}>
         <div className="portfolio-link">
           <div className="portfolio-hover">
