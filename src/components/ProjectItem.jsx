@@ -29,7 +29,7 @@ return (
             <span>&#125;</span>
           </p>
         </Link>
-        <div className=" portfolio-caption-subheading text-muted tags">
+        <div className="portfolio-caption-subheading text-muted tags">
           {tags.map((tag, index) => (
             <span className="" key={index}>
               {index === tag.length - 1 ? tag : `${tag} |`}
