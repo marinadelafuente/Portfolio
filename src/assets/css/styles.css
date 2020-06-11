@@ -3220,7 +3220,7 @@ input[type="button"].btn-block {
 }
 
 .pattern {
-  width: 40%;
+  width: 50%;
 }
 
 .fade {
@@ -3785,13 +3785,9 @@ input[type="button"].btn-block {
   margin: 0 auto;
 }
 
-/* .project-container a {
- padding: 2rem;
-} */
-
 .item-container {
   padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .item-container img {
@@ -9194,7 +9190,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .links {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .disabled {
@@ -9208,4 +9204,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .nav-icons {
   max-width: 20rem;
+}
+
+.description {
+  font-size: 1.2rem;
 }

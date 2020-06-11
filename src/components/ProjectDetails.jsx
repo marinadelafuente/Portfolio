@@ -48,7 +48,7 @@ function ProjectDetail(props) {
           </Link>
         </div>
         <div className="item-container">
-          <h3 className="">
+          <h3>
             <span>&#123;</span>
             {title.toUpperCase()}
             <span>&#125;</span>
