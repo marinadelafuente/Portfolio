@@ -5778,7 +5778,7 @@ a.close.disabled {
 .toast-body {
   padding: 0.75rem;
 }
-
+/* 
 .modal-open {
   overflow: hidden;
 }
@@ -5975,7 +5975,7 @@ a.close.disabled {
   .modal-xl {
     max-width: 1140px;
   }
-}
+} */
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -10455,7 +10455,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10469,8 +10469,12 @@ p {
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
+
+/* .page-section__about {
+  padding: 4rem 0;
+} */
 
 @media (min-width: 768px) {
   section {
@@ -10523,7 +10527,7 @@ img::-moz-selection {
   top: 30%;
   left: 100%;
   transform: translate(-50%, -50%);
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 .arrow span {
   display: block;
@@ -10638,19 +10642,18 @@ header.masthead {
   /* padding-bottom: 2rem; */
   text-align: center;
   color: #fff;
-  /* background-image: url("../img/header-bg.jpg"); */
   background-color: #fed136;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
-header.masthead .masthead-preheading {
+/* header.masthead .masthead-preheading {
   font-size: 2.5rem;
   font-style: italic;
   line-height: 2.5rem;
   margin-bottom: 25px;
-}
+} */
 header.masthead .masthead-heading {
   font-size: 2.75rem;
   font-weight: 400;
@@ -10680,7 +10683,6 @@ header.masthead .masthead-subheading {
     font-size: 4.5rem;
     font-weight: 400;
     line-height: 4.5rem;
-    /* margin-bottom: 4rem; */
   }
 }
 
@@ -10694,41 +10696,59 @@ header.masthead .masthead-subheading {
 }
 
 #portfolio .portfolio-item {
-  max-width: 30rem;
-  max-height: 21rem;
+  max-width: 60%;
+  max-height: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-#portfolio .img {
-  height: 10rem;
-  width: 25.3rem;
+@media (min-width: 576px) {
+  #portfolio .portfolio-item {
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
-@media (min-width: 576px) {
-  #portfolio .img {
-    height: 10rem;
-    width: 25.3rem;
-  }
-}
 @media (min-width: 768px) {
+  #portfolio .portfolio-item {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+#portfolio .img {
+  /* max-height: 75%; */
+  /* max-width: 75%; */
+}
+
+ /* @media (min-width: 576px) {
   #portfolio .img {
-    height: 10rem;
-    width: 28.3rem;
+    max-height: 100%;
+  max-width: 100%;
+  }
+} */
+/* @media (min-width: 768px) {
+  #portfolio .img {
+    height: 12rem;
+     width: 20.3rem;
   }
 }
 @media (min-width: 992px) {
   #portfolio .img {
-    height: 10rem;
-    width: 28.3rem;
+    height: 11rem;
+    width: 20.3rem;
   }
 }
 @media (min-width: 1200px) {
   #portfolio .img {
-    height: 12rem;
-    width: 28.3rem;
+    height: 11rem;
+    width: 19rem;
   }
-}
+}  */
 
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -10738,16 +10758,23 @@ header.masthead .masthead-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
-  width: 100%;
+   width: 100%;
   height: 100%;
-  max-width: 30rem;
+  /* max-width: 19rem; */
   background: rgba(254, 209, 54, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
-  /* width: 256px; */
 }
+
+@media (min-width: 575px) {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  width: 100%;
+  height: 100%;
+}
+}
+
 #portfolio
   .portfolio-item
   .portfolio-link
@@ -10764,47 +10791,62 @@ header.masthead .masthead-subheading {
   height: 7rem;
   text-align: center;
   background-color: #fff;
-  /* width: 256px; */
+  max-width: 21rem;
 }
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   #portfolio .portfolio-item .portfolio-caption {
-    height: 10rem;
-    width: 20rem;
+   height: 8rem;
+    width: 20.3rem;
   }
 }
 @media (min-width: 768px) {
   #portfolio .portfolio-item .portfolio-caption {
-    height: 10rem;
-    width: 28.3rem;
+    height: 8rem;
+    width: 20.3rem;
   }
 }
 @media (min-width: 992px) {
   #portfolio .portfolio-item .portfolio-caption {
-    height: 10rem;
-    width: 26rem;
+   height: 8rem;
+    width: 20.3rem;
   }
 }
 @media (min-width: 1200px) {
   #portfolio .portfolio-item .portfolio-caption {
-    height: 12rem;
-    width: 28.3rem;
+     height: 8rem;
+   max-width: 21rem;
   }
-}
+} */
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  padding-bottom: 0.7rem;
   margin-bottom: 0;
   line-height: 1.25;
 }
+
+ @media (min-width: 576px) {
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+   font-size: 1.4rem;
+  }
+}
+
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+   font-size: 0.8rem;
   font-style: italic;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 576px) {
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+   font-size: 1rem;
+  }
 }
 /* 
 .portfolio-modal .modal-dialog {
@@ -11106,14 +11148,21 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .footer {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .links {
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .disabled {

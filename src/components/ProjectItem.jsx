@@ -9,7 +9,7 @@ return (
     <li
       className="li col-lg-4 col-sm-6 mb-4 portfolio-item"
       key={id}
-      id={`card_${id}`}
+      // id={`card_${id}`}
     >
       <Link key={id} to={routeId}>
         <div className="portfolio-link">
@@ -31,8 +31,8 @@ return (
         </Link>
         <div className=" portfolio-caption-subheading text-muted tags">
           {tags.map((tag, index) => (
-            <span className="btn" key={index}>
-              {tag} /{" "}
+            <span className="" key={index}>
+              {index === tag.length - 1 ? tag : `${tag} |`}
             </span>
           ))}
         </div>

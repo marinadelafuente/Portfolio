@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="page-section bg-white" id="about">
+    <section className="page-section page-section__about bg-white" id="about">
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">About Me</h2>
@@ -68,7 +68,7 @@ function AboutMe() {
       <a
         href="./static/media/Marina-de-la-Fuente-CV.pdf"
         download="CV_Marina-de-la-Fuente"
-        className="btn btn-primary btn-xl text-uppercase"
+        className="btn btn-primary btn-xl text-uppercase mt-3"
         id="downloadCV"
       >
         Download CV

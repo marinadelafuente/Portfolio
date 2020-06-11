@@ -6,7 +6,7 @@
     "img": "./static/media/project1.png",
     "alt": "Find your number",
     "demo": "./static/media/project1a.png",
-    "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass"],
+    "tags": ["React", "HTML5", "CSS3", "Sass"],
     "url": "https://marinadelafuente.github.io/Rick-and-Morty-finder/#/",
     "urlGithub": "https://github.com/marinadelafuente/Rick-and-Morty-finder"
   },
@@ -17,7 +17,7 @@
     "img": "./static/media/project2.png",
     "alt": "Find your number",
     "demo": "./static/media/project2a.png",
-    "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass"],
+    "tags": ["React", "HTML5", "CSS3", "Sass"],
     "url": "https://marinadelafuente.github.io/weather-app/",
     "urlGithub": "https://github.com/marinadelafuente/weather-app"
   },
