@@ -28,7 +28,6 @@ function ProjectItem(props) {
           </Link>
           <div className="portfolio-caption-subheading text-muted tags">
             {tags.map((tag, index) => {
-              console.log(index, tags.length);
               return (
                 <span key={index}>
                   {index === tags.length - 1 ? tag : `${tag} | `}

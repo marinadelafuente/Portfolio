@@ -33,7 +33,10 @@ function ProjectDetail(props) {
                 id === 1 ? "disabled" : "link"
               }`}
             ></i>
-            <span className={`${id === 1 ? "pr-3 disabled" : "pr-3"}`}> Previous</span>
+            <span className={`${id === 1 ? "pr-3 disabled" : "pr-3"}`}>
+              {" "}
+              Previous
+            </span>
           </Link>
           <span>|</span>
           <Link to={"/"} className="p-3">
@@ -41,7 +44,9 @@ function ProjectDetail(props) {
           </Link>
           <span>|</span>
           <Link to={nextProject}>
-            <span className={`${id === 9 ? "pl-3 disabled" : "pl-3"}`}>Next </span>
+            <span className={`${id === 9 ? "pl-3 disabled" : "pl-3"}`}>
+              Next{" "}
+            </span>
             <i
               className={`fas fa-chevron-right ${id === 9 ? "disabled" : ""}`}
             ></i>
@@ -55,22 +60,24 @@ function ProjectDetail(props) {
           </h3>
           <img className="img" src={img} alt={alt}></img>
           <p className="">{description}</p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={url}
-            className="btn btn-primary mr-5"
-          >
-            Website
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={urlGithub}
-            className="btn btn-primary mr-0"
-          >
-            GitHub
-          </a>
+          <div className="web-links">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={url}
+              className="btn btn-primary mr-5"
+            >
+              Website
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={urlGithub}
+              className="btn btn-primary mr-0"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
     </React.Fragment>

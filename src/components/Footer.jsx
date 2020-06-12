@@ -39,7 +39,7 @@ function Footer() {
               <i className="fa fa-envelope" aria-hidden="true"></i>
             </a>
           </div>
-          <p className="col-lg-12 mb-2 my-sm-2">
+          <p className="col-lg-12 mb-2 mt-1">
             Copyright © Marina de la Fuente 2020
           </p>
         </div>

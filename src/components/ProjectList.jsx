@@ -4,7 +4,6 @@ import ProjectItem from './ProjectItem';
 
 function ProjectList (props) {
     const {projects} = props;
-    console.log(projects);
     
     return (
       <section className="page-section bg-light" id="portfolio">
