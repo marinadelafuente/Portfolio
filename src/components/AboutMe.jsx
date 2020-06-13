@@ -57,7 +57,7 @@ function AboutMe() {
               Former marketing professional, now web developer
               junior with a new-found passion for front-end developing and the
               ability of getting my ideas come into life through a screen.
-              Having lived and work in different countries has taught me that
+              Having lived and worked in different countries has taught me that
               everything is possible with a proactive, can-do attitude and hard
               work. Outside the coding world, I spend my time travelling, photographing sceneries and trying my best at healthy cooking.
             </p>

@@ -4,7 +4,7 @@ import Typing from "react-typing-animation";
 
 function Header() {
   return (
-    <header className="masthead header">
+    <header className="masthead">
       <div className="container">
         <Typical
           steps={["Hello!", 500, "Welcome to my portfolio", 500]}
@@ -14,7 +14,7 @@ function Header() {
         <Typing startDelay={2700}>
           <div>
             <p className="masthead-heading"> I am Marina de la Fuente.</p>
-            <Typing.Delay ms={800} />
+            <Typing.Delay ms={1000} />
             <p className="masthead-subheading"> Front-End Developer.</p>
           </div>
         </Typing>
