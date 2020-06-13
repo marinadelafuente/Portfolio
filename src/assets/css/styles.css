@@ -3220,16 +3220,19 @@ input[type="button"].btn-block {
 }
 
 .pattern {
-  max-width: 60%;
-  height: auto;
+  max-width: 100%;
+  max-height: auto;
+  padding: 1rem;
+  /* padding-top: 8rem; */
+  /* padding-bottom: 4rem; */
 }
 
-@media (min-width: 575px) {
+/* @media (min-width: 575px) {
   .pattern {
     max-width: 100%;
     height: auto;
   }
-}
+} */
 
 .fade {
   transition: opacity 0.15s linear;
@@ -3801,9 +3804,9 @@ input[type="button"].btn-block {
 .item-container {
   padding-top: 2.5rem;
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .item-container {
-   margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 

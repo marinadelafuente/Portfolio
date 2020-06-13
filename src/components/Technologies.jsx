@@ -1,7 +1,6 @@
 import React from "react";
-// import htmlIcon from "../assets/img/icons/html5.svg";
 import pattern from "../assets/img/pattern1.png";
-// import cssIcon from '../assets/img/icons/css3.svg';
+import pattern2 from "../assets/img/pattern3.png";
 
 function Technologies() {
   return (
@@ -14,7 +13,11 @@ function Technologies() {
           </h3>
         </div>
         <div className="row text-center">
-          <img src={pattern} alt="tech-icons" className="mx-auto pattern" />    
+          <img
+            src={window.innerWidth >= 540 ? pattern : pattern2}
+            alt="tech-icons"
+            className="mx-auto pattern"
+          />
         </div>
       </div>
     </section>
