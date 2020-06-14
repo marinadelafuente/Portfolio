@@ -3223,16 +3223,8 @@ input[type="button"].btn-block {
   max-width: 100%;
   max-height: auto;
   padding: 1rem;
-  /* padding-top: 8rem; */
-  /* padding-bottom: 4rem; */
 }
 
-/* @media (min-width: 575px) {
-  .pattern {
-    max-width: 100%;
-    height: auto;
-  }
-} */
 
 .fade {
   transition: opacity 0.15s linear;

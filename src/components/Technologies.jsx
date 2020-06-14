@@ -1,6 +1,6 @@
 import React from "react";
-import pattern from "../assets/img/pattern1.png";
-import pattern2 from "../assets/img/pattern3.png";
+import pattern from "../img/pattern1.png";
+import pattern2 from "../img/pattern3.png";
 
 function Technologies() {
   return (

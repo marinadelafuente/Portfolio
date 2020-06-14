@@ -55,7 +55,6 @@ class Contact extends React.Component {
                     required="required"
                     data-validation-required-message="Please enter your name."
                   />
-                  {/* <p className="help-block text-danger"></p> */}
                 </div>
                 <div className="form-group">
                   <input
@@ -67,7 +66,6 @@ class Contact extends React.Component {
                     required="required"
                     data-validation-required-message="Please enter your email address."
                   />
-                  {/* <p className="help-block text-danger"></p> */}
                 </div>
                 <div className="form-group mb-md-0">
                   <input
@@ -78,7 +76,6 @@ class Contact extends React.Component {
                     placeholder="Your Phone"
                     data-validation-required-message="Please enter your phone number."
                   />
-                  {/* <p className="help-block text-danger"></p> */}
                 </div>
               </div>
               <div className="col-md-6">

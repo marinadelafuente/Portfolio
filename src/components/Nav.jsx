@@ -39,7 +39,6 @@ function Nav() {
           </a>
         </div>
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          {/* <img src="assets/img/navbar-logo.svg" alt="" /> */}
         </a>
         <button
           className="navbar-toggler navbar-toggler-right"

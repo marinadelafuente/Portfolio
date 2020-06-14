@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from "react-router-dom";
-import "./assets/css/reset.css";
-import "./assets/css/styles.css";
+import "./css/reset.css";
+import "./css/styles.css";
 import App from './components/App';
 
 ReactDOM.render(
