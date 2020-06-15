@@ -54,19 +54,20 @@ function AboutMe() {
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
             <p className="large text-muted description">
-              Former marketing professional, now web developer
-              junior with a new-found passion for front-end developing and the
-              ability of getting my ideas come into life through a screen.
-              Having lived and worked in different countries has taught me that
-              everything is possible with a proactive, can-do attitude and hard
-              work. Outside the coding world, I spend my time travelling, photographing sceneries and trying my best at healthy cooking.
+              Former marketing professional, now web developer junior with a
+              new-found passion for front-end developing and the ability of
+              getting my ideas come into life through a screen. Having lived and
+              worked in different countries has taught me that everything is
+              possible with a proactive, can-do attitude and hard work. Outside
+              the coding world, I spend my time travelling, photographing
+              sceneries and trying my best at healthy cooking.
             </p>
           </div>
         </div>
       </div>
       <a
         href="../files/Marina-de-la-Fuente-CV.pdf"
-        download="CV_Marina-de-la-Fuente"
+        download="Marina-de-la-Fuente-CV"
         className="btn btn-primary btn-xl text-uppercase mt-3"
         id="downloadCV"
       >
