@@ -67,7 +67,7 @@ function AboutMe() {
       </div>
       <a
         href="../files/Marina-de-la-Fuente-CV.pdf"
-        download="Marina-de-la-Fuente-CV"
+        download="Marina-de-la-Fuente-CV.pdf"
         className="btn btn-primary btn-xl text-uppercase mt-3"
         id="downloadCV"
       >
