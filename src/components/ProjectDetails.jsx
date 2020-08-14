@@ -6,7 +6,7 @@ function ProjectDetail(props) {
     id,
     title,
     description,
-    img,
+    demo,
     alt,
     url,
     urlGithub,
@@ -44,11 +44,11 @@ function ProjectDetail(props) {
           </Link>
           <span>|</span>
           <Link to={nextProject}>
-            <span className={`${id === 9 ? "pl-3 disabled" : "pl-3"}`}>
+            <span className={`${id === 10 ? "pl-3 disabled" : "pl-3"}`}>
               Next{" "}
             </span>
             <i
-              className={`fas fa-chevron-right ${id === 9 ? "disabled" : ""}`}
+              className={`fas fa-chevron-right ${id === 10 ? "disabled" : ""}`}
             ></i>
           </Link>
         </div>
@@ -58,7 +58,7 @@ function ProjectDetail(props) {
             {title.toUpperCase()}
             <span>&#125;</span>
           </h3>
-          <img className="img" src={img} alt={alt}></img>
+          <img className="img" src={demo} alt={alt}></img>
           <p className="">{description}</p>
           <div className="web-links">
             <a

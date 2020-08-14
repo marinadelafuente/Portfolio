@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function ProjectItem(props) {
-  const { id, demo, title, tags } = props.project;
+  const { id, screenshot, title, tags } = props.project;
   const routeId = `./project/${id}`;
 
   return (
@@ -15,7 +15,7 @@ function ProjectItem(props) {
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid img" src={demo} alt="" />
+            <img className="img-fluid img" src={screenshot} alt="" />
           </div>
         </Link>
         <div className="portfolio-caption d-flex flex-column justify-content-center">
