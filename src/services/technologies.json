@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "icon": "../img/icons/html5.png",
+    "alt": "html5 icon"
+  },
+  {
+    "id": 2,
+    "icon": "../img/icons/css3.png",
+    "alt": "css3 icon"
+  },
+  {
+    "id": 3,
+    "icon": "../img/icons/js6.png",
+    "alt": "javascript icon"
+  },
+  {
+    "id": 4,
+    "icon": "../img/icons/sass.png",
+    "alt": "sass icon"
+  },
+  {
+    "id": 5,
+    "icon": "../img/icons/react.png",
+    "alt": "reactjs icon"
+  },
+  {
+    "id": 6,
+    "icon": "../img/icons/git.png",
+    "alt": "git icon"
+  },
+  {
+    "id": 7,
+    "icon": "../img/icons/npm.png",
+    "alt": "npm icon"
+  },
+  {
+    "id": 7,
+    "icon": "../img/icons/bootstrap4.png",
+    "alt": "bootstrap 4 icon"
+  },
+  {
+    "id": 8,
+    "icon": "../img/icons/photoshop.png",
+    "alt": "photoshop icon"
+  },
+  {
+    "id": 9,
+    "icon": "../img/icons/wordpress.png",
+    "alt": "wordpress icon"
+  },
+  {
+    "id": 10,
+    "icon": "../img/icons/drupal8.png",
+    "alt": "drupal 8 icon"
+  },
+  {
+    "id": 11,
+    "icon": "../img/icons/agile.png",
+    "alt": "agile and scrum icon"
+  }
+]

@@ -5,15 +5,20 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import ProjectList from "./ProjectList";
 import ProjectDetails from './ProjectDetails';
-import Technologies from "./Technologies";
+import TechList from "./TechList";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import projects from '../services/projects.json';
+import technologies from '../services/technologies.json';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       projects: projects
+    }
+    this.state = {
+      technologies: technologies
     }
     this.renderProjectDetail = this.renderProjectDetail.bind(this);
   }
@@ -36,7 +41,7 @@ class App extends React.Component {
             <Header />
             <AboutMe />
             <ProjectList projects={projects} />
-            <Technologies />
+            <TechList technologies={technologies} />
             <Contact />
           </Route>
         </Switch>

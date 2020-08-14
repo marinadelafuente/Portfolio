@@ -8762,7 +8762,7 @@ p {
 }
 
 .page-section {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -9204,4 +9204,19 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .description {
   font-size: 1.2rem;
+}
+
+.tech-list {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0px;
+}
+
+.tech-icon {
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.tech-icon:hover {
+transform: scale(1.2);
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import pattern from "../img/pattern1.png";
-import pattern2 from "../img/pattern2.png";
+import TechItem from './TechItem';
 
-function Technologies() {
+function Technologies(props) {
+  const { technologies } = props;
   return (
     <section className="page-section" id="technologies">
       <div className="container">
@@ -12,13 +12,11 @@ function Technologies() {
             Some of the technologies I have worked with:
           </h3>
         </div>
-        <div className="row text-center">
-          <img
-            src={window.innerWidth >= 540 ? pattern : pattern2}
-            alt="tech-icons"
-            className="mx-auto pattern"
-          />
-        </div>
+          <ul className="row tech-list">
+            {technologies.map((tech) => (
+              <TechItem key={tech.id} tech={tech} alt={tech.alt}/>
+            ))}
+          </ul>
       </div>
     </section>
   );
