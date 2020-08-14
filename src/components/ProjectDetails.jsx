@@ -18,7 +18,7 @@ function ProjectDetail(props) {
     }
   };
   const nextProject = () => {
-    if (id < 9) {
+    if (id < 10) {
       return `/project/${id + 1}`;
     }
   };

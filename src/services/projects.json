@@ -5,7 +5,7 @@
     "description": "Website designed for computer usage using HTML, CSS, Sass and Javascript ES6.",
     "screenshot": "../img/projects/snake-game.png",
     "alt": "Snake Game retro version",
-    "demo": "../img/snake-game-laptop.png",
+    "demo": "../img/projects/snake-game-laptop.png",
     "tags": ["HTML5", "CSS3", "Sass", "Javascript"],
     "url": "https://marinadelafuente.github.io/Snake/",
     "urlGithub": "https://github.com/marinadelafuente/Snake"
@@ -16,7 +16,7 @@
     "description": "Development of a resposive web application to check the weather using the Accuweather API and local storage. Done with Sass, Bootstrap and Javascript E6.",
     "screenshot": "../img/projects/weather-today.png",
     "alt": "WeatherToday",
-    "demo": "../img/weather-today-laptop.png",
+    "demo": "../img/projects/weather-today-laptop.png",
     "tags": ["HTML5", "CSS3", "Sass", "Bootstrap", "Javascript"],
     "url": "https://marinadelafuente.github.io/weather-app/",
     "urlGithub": "https://github.com/marinadelafuente/weather-app"
@@ -26,7 +26,7 @@
     "title": "Awesome Profile Cards",
     "description": "Code refactoring project from Vanilla JS to ReactJS with legacy code. Development of a web application that generates an online business through an API, and shares resulting card to Twitter. Form validation and local storage.",
     "screenshot": "../img/projects/awesome-profile-cards.png",
-    "demo": "../img/awesome-profile-cards-laptop.png",
+    "demo": "../img/projects/awesome-profile-cards-laptop.png",
     "alt": "Awesome Profile Cards",
     "tags": ["HTML5", "CSS3", "Sass", "React"],
     "url": "https://marinadelafuente.github.io/Awesome-Profile-Cards-React/#/",
@@ -38,7 +38,7 @@
     "description": "Responsive website using HTML, CSS, Sass and React, with API requests, multiple filtering options, local storage and React-Router.",
     "screenshot": "../img/projects/rick-and-morty.png",
     "alt": "Rick and Morty finder",
-    "demo": "../img/rick-and-morty-laptop.png",
+    "demo": "../img/projects/rick-and-morty-laptop.png",
     "tags": ["HTML5", "CSS3", "Sass", "React"],
     "url": "https://marinadelafuente.github.io/Rick-and-Morty-finder/#/",
     "urlGithub": "https://github.com/marinadelafuente/Rick-and-Morty-finder"
@@ -49,7 +49,7 @@
     "description": "Creation of a responsive web application with HTML5, CSS, Bootstrap and Javascript E6 to add and search for tasks.",
     "screenshot": "../img/projects/to-do-list.png",
     "alt": "To do list",
-    "demo": "../img/to-do-list-laptop.png",
+    "demo": "../img/projects/to-do-list-laptop.png",
     "tags": ["HTML5", "CSS3", "Bootstrap", "Javascript"],
     "url": "https://marinadelafuente.github.io/To-do-list/",
     "urlGithub": "https://github.com/marinadelafuente/To-do-list"
@@ -60,7 +60,7 @@
     "description": "Memory card game done during Covid-19 pandemic with cards of activities to do at home. Developed with Vanilla Javascript, HTML5 and CSS.",
     "screenshot": "../img/projects/stay-at-home.png",
     "alt": "Stay at home Memory Card",
-    "demo": "../img/stay-at-home-laptop.png",
+    "demo": "../img/projects/stay-at-home-laptop.png",
     "tags": ["HTML5", "CSS3", "Javascript"],
     "url": "https://marinadelafuente.github.io/stay-at-home-memory-game/",
     "urlGithub": "https://github.com/marinadelafuente/stay-at-home-memory-game"
@@ -71,7 +71,7 @@
     "description": "Development of a game to guess a random number using HTML5, CSS3, Sass and Javascript.",
     "screenshot": "../img/projects/number-game.png",
     "alt": "Find your number",
-    "demo": "../img/number-game-laptop.png",
+    "demo": "../img/projects/number-game-laptop.png",
     "tags": ["HTML5", "CSS3", "Sass", "Javascript"],
     "url": "https://marinadelafuente.github.io/Find-the-number/",
     "urlGithub": "https://github.com/marinadelafuente/Find-the-number"
@@ -82,7 +82,7 @@
     "description": "Responsive website using HTML5, CSS3, Sass, React and version control with Git to search for your favourite professor of Harry Potter. API requests, filtering and local storage.",
     "screenshot": "../img/projects/harry-potter-finder.png",
     "alt": "Harry Potter Characters",
-    "demo": "../img/harry-potter-finder-laptop.png",
+    "demo": "../img/projects/harry-potter-finder-laptop.png",
     "tags": ["HTML5", "CSS3", "Sass", "React"],
     "url": "https://marinadelafuente.github.io/Harry-Potter-characters/#/",
     "urlGithub": "https://github.com/marinadelafuente/Harry-Potter-characters"
@@ -93,7 +93,7 @@
     "description": "Development of a responsive website with HTML5, CSS3, Sass and Vanilla Javascript to search and save your favourite TV Shows. Api request and local storage.",
     "screenshot": "../img/projects/tv-shows-database.png",
     "alt": "Find your number",
-    "demo": "../img/tv-shows-database-laptop.png",
+    "demo": "../img/projects/tv-shows-database-laptop.png",
     "tags": ["HTML5", "CSS3", "Sass", "Javascript"],
     "url": "https://marinadelafuente.github.io/TvShows_database/",
     "urlGithub": "https://github.com/marinadelafuente/TvShows_database"
@@ -104,7 +104,7 @@
     "description": "Responsive animation made only with HTML and CSS.",
     "screenshot": "../img/projects/car-animation.png",
     "alt": "Find your number",
-    "demo": "../img/car-animation-laptop.png",
+    "demo": "../img/projects/car-animation-laptop.png",
     "tags": ["HTML5", "CSS3"],
     "url": "https://marinadelafuente.github.io/moving-car-animation/",
     "urlGithub": "https://github.com/marinadelafuente/moving-car-animation"
